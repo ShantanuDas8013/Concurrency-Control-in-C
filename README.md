@@ -12,15 +12,17 @@ Commit: Safely writes resource states to the file, marking the transaction as co
 Conflict Handling: Detects and resolves conflicts when multiple transactions attempt to access or modify the same resource.
 Transaction Table: Logs transaction activities, including timestamps, operations performed, and resource values held.
 Menu-Driven Interface: Interactive menu for creating transactions and performing various operations.
-Usage:
+# Usage:
 The program includes a user-friendly menu to:
 Create new transactions.
 Perform read, arithmetic, and write operations.
 Commit changes to shared resources.
 Display the transaction table and resource status.
-Learning Objectives:
+# Learning Objectives:
 Understand how transactions operate in a concurrent system.
 Explore locking mechanisms to manage resource conflicts.
 Gain insight into basic ACID properties (Atomicity, Consistency, Isolation, Durability) for database transactions.
 Learn C programming techniques for data structure management and file handling.
+
+# Summary
 This project provides a foundational understanding of concurrency control, making it ideal for students and developers looking to grasp the basics of database systems or concurrent programming.
